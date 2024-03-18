@@ -27,6 +27,17 @@ body{
 .aic{
   align-items: center;
 }
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+header, main > section {
+  border-bottom:1px solid var(--black, #121212);
+}
+.column_left{
+  border-right: 1px solid var(--black, #121212);
+}
 
 /* typography */
 body{
@@ -95,6 +106,14 @@ body{
   position: absolute;
   left: 0;
   top:100%;
+}
+.hidden{
+  position: fixed;
+  left: 0;
+  top:-9999em;
+  width: 0;
+  height: 0;
+  overflow:hidden;
 }
 /* color */
 
