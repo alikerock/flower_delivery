@@ -59,10 +59,11 @@ body{
   background: transparent;
   cursor: pointer;
 }
-.effect_3d:hover{
+.bg_hover:hover{
   background:var(--black, #121212);
   color: var(--white, #fff);
 }
+
 .effect_3d .parent{
   position: relative;
   display: inline-block;
