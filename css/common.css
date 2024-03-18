@@ -38,7 +38,10 @@ header, main > section {
 .column_left{
   border-right: 1px solid var(--black, #121212);
 }
-
+.sticky{
+  position: sticky;
+  top:10vh;
+}
 /* typography */
 body{
   font-family: "Roboto", sans-serif;
