@@ -10,6 +10,7 @@
 :root{
   --font-size:16px;
   --black:#121212;
+  --white:#fff;
 }
 
 /* layout */
@@ -44,14 +45,41 @@ body{
   gap:4px;
 }
 .button{
-  display: inline-block;
-  line-height: 56px;
+  height: 56px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 24px;
   text-transform: uppercase;
   color:var(--black, #121212);
   border:1px solid var(--black, #121212);
   background:none;
   font-weight: 600;
+  transition:0.3s;
+  background: transparent;
+  cursor: pointer;
+}
+.effect_3d:hover{
+  background:var(--black, #121212);
+  color: var(--white, #fff);
+}
+.effect_3d .parent{
+  position: relative;
+  display: inline-block;
+  overflow:hidden;
+}
+.effect_3d .parent > span{
+  transform:translateY(0);
+  transition:0.3s;
+  display: block;
+}
+.effect_3d:hover .parent > span{
+  transform:translateY(-100%);
+}
+.effect_3d .parent .abs{
+  position: absolute;
+  left: 0;
+  top:100%;
 }
 /* color */
 
