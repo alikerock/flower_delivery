@@ -14,6 +14,19 @@
 }
 
 /* layout */
+body{
+  display: flex;
+  flex-direction:column;
+}
+.d_flex{
+  display: flex;
+}
+.jcsb{
+  justify-content: space-between;
+}
+.aic{
+  align-items: center;
+}
 
 /* typography */
 body{
@@ -85,3 +98,5 @@ body{
 /* color */
 
 /* form */
+
+/* HEADER */
