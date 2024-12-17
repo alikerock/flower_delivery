@@ -12,6 +12,7 @@
   --black:#121212;
   --white:#fff;
   --black-brightness-90:rgba(18, 18, 18, 0.90);
+  --Gray:#808080;
 }
 
 /* layout */
@@ -42,6 +43,9 @@ header, main > section {
 .sticky{
   position: sticky;
   top:10vh;
+}
+.p80{
+  padding: 80px;
 }
 /* typography */
 body{
@@ -88,7 +92,8 @@ body{
   background: transparent;
   cursor: pointer;
 }
-.bg_hover:hover{
+
+.invert, .bg_hover:hover{
   background:var(--black, #121212);
   color: var(--white, #fff);
 }

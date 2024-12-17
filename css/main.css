@@ -1,9 +1,7 @@
 .products img{
   width: 100%;
 }
-section .column_left  {
-  padding: 80px;
-}
+
 .hero .header{
   margin-bottom: 54px;
 }
@@ -66,3 +64,89 @@ section .column_left  {
 .products li:nth-child(2n) .img_wrap{
   order:-1;
 }
+.about_us .column_right{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+  align-items: flex-start;
+}
+.about_us .column_right h3{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.about_us .column_right a{
+  margin-top: 40px;
+}
+
+.benefits .column_right > div{
+  display: flex;
+  flex-direction: column;
+  gap:24px;  
+}
+.benefits .column_right > div + div{
+  border-top: 1px solid var(--Black, #121212);
+}
+
+.contact .column_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact .column_left .p80{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+.contact .column_left form{
+  grid-gap:24px;
+}
+.contact .column_left form input{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  padding: 16px;
+}
+.contact .column_left form input::placeholder{
+  color: var(--Gray, #808080);
+}
+.contact .column_left .grid >div{
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border:1px solid var(--Black, #121212);
+  border-right: none;
+}
+.contact .column_left .grid h3{
+  line-height: 78px;
+  border-bottom: 1px solid var(--Black, #121212);
+}
+.contact .column_left .grid .content{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.contact .column_right > img{
+  height: 644px;
+  width: 100%;
+  object-fit: cover;
+}
+.contact .column_right .grid{
+  height: 78px;
+}
+.contact .column_right .grid h3{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+.contact .column_right ul{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap:32px;
+}
+
