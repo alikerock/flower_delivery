@@ -28,3 +28,10 @@ $('.review_slides .left').click(function(){
 $('.review_slides .right').click(function(){
   review_slides.slideNext()
 });
+
+$('#cart').click(function(){
+  $('body').addClass('cart_active');
+});
+$('#shopping_cart .close').click(function(){
+  $('body').removeClass('cart_active');
+});

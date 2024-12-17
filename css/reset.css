@@ -50,5 +50,9 @@ img{
 }
 hr{
 	margin: 0;
-	
+
+}
+button{
+	background: none;
+	border:none;
 }

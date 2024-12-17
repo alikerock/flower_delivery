@@ -21,10 +21,47 @@
       </ul>
       <ul class="nav_right d_flex">
         <li><a href="#" class="button effect_3d">sign in</a></li>
-        <li><a href="#" class="button effect_3d">cart</a></li>
+        <li><a href="#" class="button effect_3d" id="cart">cart</a></li>
       </ul>
     </nav>
   </header>
+  <aside id="shopping_cart">
+    <header>
+      <h2>Shopping Cart</h2>
+      <button class="close">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.02632 13L0 11.9737L5.47368 6.5L0 1.02632L1.02632 0L6.5 5.47368L11.9737 0L13 1.02632L7.52632 6.5L13 11.9737L11.9737 13L6.5 7.52632L1.02632 13Z" fill="#121212"/>
+          </svg>          
+      </button>
+    </header>
+    <form action="#" class="content" method="POST">      
+      <ul class="carts">
+        <li class="cart_item">
+          <img src="images/cart_item_01.jpg" alt="">
+          <div class="info">
+            <h3>Rosy Delight</h3>
+            <h4>Quantity (1)</h4>
+            <p class="price">$100</p>
+          </div>
+          <button class="remove">Remove</button>
+        </li>
+      </ul>
+      <div class="subtotal">
+        <h3>Subtotal</h3>
+        <h4>$100.00</h4>
+      </div>
+      <div class="message">
+        <p>Gift Message</p>
+      </div>
+      <div class="shipping_info">
+        <p>
+          Shipping & taxes calculated at checkout<br/>
+Free standard shipping within Kyiv
+        </p>
+      </div>
+      <button class="button invert effect_3d">check out</button>
+    </form>
+  </aside>
   <main>
     <section class="hero grid">
       <h2 class="hidden">Hero Section</h2>
