@@ -11,6 +11,7 @@
   --font-size:16px;
   --black:#121212;
   --white:#fff;
+  --black-brightness-90:rgba(18, 18, 18, 0.90);
 }
 
 /* layout */
