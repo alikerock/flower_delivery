@@ -1,3 +1,6 @@
 .products img{
   width: 100%;
 }
+section .column_left  {
+  padding: 80px;
+}
