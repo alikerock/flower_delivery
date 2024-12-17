@@ -63,3 +63,6 @@ section .column_left  {
   gap:4px;
   font-weight: 600;
 }
+.products li:nth-child(2n) .img_wrap{
+  order:-1;
+}
