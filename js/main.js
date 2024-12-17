@@ -6,7 +6,7 @@ const review_slides = new Swiper('.review_slides', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    clickable:true
+    clickable: true
   },
 
   // Navigation arrows
@@ -21,17 +21,25 @@ const review_slides = new Swiper('.review_slides', {
   },
 });
 
-$('.review_slides .left').click(function(){
+$('.review_slides .left').click(function () {
   review_slides.slidePrev()
 });
 
-$('.review_slides .right').click(function(){
+$('.review_slides .right').click(function () {
   review_slides.slideNext()
 });
 
-$('#cart').click(function(){
+$('#cart').add('#mobile_cart').click(function () {
   $('body').addClass('cart_active');
 });
-$('#shopping_cart .close').click(function(){
+$('#shopping_cart .close').click(function () {
   $('body').removeClass('cart_active');
 });
+
+$('.mobile_menu_toggle').click(function () {
+  $('body').addClass('menu_active');
+});
+$('#mobile_nav #close').click(function () {
+  $('body').removeClass('menu_active');
+});
+

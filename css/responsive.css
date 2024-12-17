@@ -40,6 +40,37 @@
     grid-template-columns: 1fr;
   }
 
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  body>header nav:first-child {
+    display: none;
+  }
+
+  header .mobile button {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile_menu_toggle {
+    border-right: 1px solid var(--black, #121212);
+  }
+
+
+  .menu_active #mobile_nav {
+    left: 0;
+  }
+
+  #mobile_cart {
+    border-left: 1px solid var(--black, #121212);
+  }
+
   main .column_left {
     border-bottom: 1px solid var(--black, #121212);
   }
@@ -59,6 +90,12 @@
 
   .review_slides button {
     display: none;
+  }
+
+  .cart_active #shopping_cart {
+    width: 100%;
+    right: 0;
+    z-index: 100;
   }
 
 }
