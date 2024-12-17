@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flower Delivery</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
   <header>
@@ -183,7 +188,7 @@
       </div>
     </section>
     <section class="service">
-      <h2 class="h2">Our Service</h2>
+      <h2 class="h2 p80">Our Service</h2>
       <div class="grid">
         <img src="images/subscription.jpg" alt="">
         <div class="content">
@@ -196,12 +201,54 @@
         </div>
       </div>
     </section>
-    <section class="event"></section>
-    <section class="review"></section>
+    <section class="event">
+      <div class="content">
+        <h3 class="h3">service</h3>
+        <h2 class="h2">Wedding & Event Decor</h2>
+        <p>
+          Let our team of expert florists and designers create stunning, on-trend floral décor for your special day. Trust us to bring your vision to life.
+        </p>
+        <a href="" class="button effect_3d">Inquire Now</a>
+      </div>
+    </section>
+    <section class="review p80">
+      <h3 class="h3">
+        <img src="images/review_googlelogo.png" alt="">
+        Reviews
+      </h3>
+      <h2 class="h2">Our Clients say</h2>
+      <div class="swiper review_slides">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <blockquote>
+              Ordered flowers online and they were the best bouquet! Impressed everyone around. Highly recommend this flower shop!
+              <small>- Ronald Richards</small>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote>
+              Ordered flowers online and they were the best bouquet! Impressed everyone around. Highly recommend this flower shop!
+              <small>- Ronald Richards</small>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote>
+              Ordered flowers online and they were the best bouquet! Impressed everyone around. Highly recommend this flower shop!
+              <small>- Ronald Richards</small>
+            </blockquote>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
   </main>
   <footer></footer>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

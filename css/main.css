@@ -150,3 +150,57 @@
   gap:32px;
 }
 
+.service > .h2{
+  text-align: center;
+  border-bottom:1px solid var(--Black, #121212);
+}
+
+.service .grid img{
+  width: 100%;
+}
+.service .grid .content{
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap:24px;
+}
+.service .grid .content h3{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.service .grid .content a{
+  margin-top: 40px;
+}
+
+.event {
+  height: 720px;
+  background: url(../images/event_bg.jpg) no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.event .content{
+  width: 586px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:24px;
+  color: #fff;
+  text-align: center;
+}
+.event .content h3{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.event .content a{
+  margin-top: 40px;
+  border:1px solid #fff;
+  color: #fff;
+}
+.swiper {
+  width: 1280px;
+  height: 147px;
+}
