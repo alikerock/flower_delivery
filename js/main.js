@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const review_slides = new Swiper('.review_slides', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
@@ -6,6 +6,7 @@ const swiper = new Swiper('.swiper', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    clickable:true
   },
 
   // Navigation arrows
@@ -18,4 +19,12 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+});
+
+$('.review_slides .left').click(function(){
+  review_slides.slidePrev()
+});
+
+$('.review_slides .right').click(function(){
+  review_slides.slideNext()
 });

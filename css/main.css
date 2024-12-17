@@ -200,7 +200,69 @@
   border:1px solid #fff;
   color: #fff;
 }
+.review h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  gap:8px;
+}
+.review h2{
+  text-align: center;
+  margin:24px 0 16px;
+}
+
 .swiper {
   width: 1280px;
   height: 147px;
 }
+.review_slides button{
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border:none;
+  transform:translateY(-50%);
+  cursor: pointer;
+  z-index: 100;
+}
+.review_slides button.left{
+  left: 0;
+}
+.review_slides button.right{
+  right: 0;
+}
+.review_slides blockquote{
+  max-width: 1168px;
+  width: 80%;
+  margin:0 auto;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 120%;
+  text-align: center;
+  }
+  .review_slides blockquote small{
+    display: block;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .review_slides .swiper-pagination{
+    bottom: 0;
+    display: flex;
+    gap:4px;
+    justify-content: center;
+  }
+  .review_slides .swiper-pagination span{
+    width: 4px;
+    height: 4px;
+    background: var(--Light-gray, #D2D2D7);
+    margin: 0 !important;
+  }
+  .review_slides .swiper-pagination-bullet-active{
+    background: var(--Gray, #808080);
+  }
