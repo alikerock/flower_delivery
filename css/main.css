@@ -266,3 +266,69 @@
   .review_slides .swiper-pagination-bullet-active{
     background: var(--Gray, #808080);
   }
+
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  footer> div{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    border-right:1px solid var(--Black, #121212);
+  }
+  footer> div:last-child{
+    border-right:none;
+  }
+  footer .h4{
+    color: var(--Gray, #808080);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+  }
+
+footer .remind input{
+  display: flex;
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+  border: 1px solid var(--Light-gray, #D2D2D7);
+  background: var(--White, #FFF);
+}
+footer .remind button{
+  width: 100%;
+}
+
+footer .contact_us dt{
+  color: var(--Gray, #808080);
+  font-size: 14px;
+  line-height: 120%; /* 16.8px */
+  margin-bottom: 8px;
+}
+footer .contact_us dd{
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.4px;
+}
+footer .contact_us dt ~ dt{
+  margin-top: 24px;
+}
+footer .contact_us ul{
+  display: flex;
+  gap:32px;  
+}
+footer .shop ul, footer.about_us ul{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+footer .shop ul, footer .about_us ul a{
+  color: var(--Black, #121212);
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.4px;  
+}
