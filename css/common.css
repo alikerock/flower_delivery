@@ -9,12 +9,19 @@
 /* variants */
 :root {
   --font-size: 16px;
-  --black: #121212;
-  --white: #fff;
-  --black-brightness-90: rgba(18, 18, 18, 0.90);
-  --Gray: #808080;
-  --Light-gray: #D2D2D7;
+  --black: rgba(18, 18, 18, 1);
+  --dark--gray: rgba(66, 66, 69, 1);
+  --gray: rgba(128, 128, 128, 1);
+  --light-gray: rgba(210, 210, 215, 1);
+  --extra--light: rgba(245, 245, 247, 1);
+  --white: rgba(255, 255, 255, 1);
+  --black--brightness-90: rgba(18, 18, 18, 0.8999999761581421);
+  --blur: rgba(210, 210, 215, 0.3499999940395355);
+  --error: rgba(245, 95, 86, 1);
+  --succeess: rgba(50, 147, 111, 1);
+
 }
+
 
 /* layout */
 body {
