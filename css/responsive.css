@@ -92,10 +92,35 @@
     display: none;
   }
 
+  .service .grid {
+    grid-template-columns: 1fr;
+  }
+
   .cart_active #shopping_cart {
     width: 100%;
     right: 0;
     z-index: 100;
   }
 
+
+}
+
+@media screen and (max-width:640px) {
+  .p80 {
+    padding: 40px 16px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+  footer>div {
+    padding: 40px 16px;
+  }
 }
