@@ -130,12 +130,6 @@ body {
 }
 
 
-.overline,
-.caption,
-.caption_bold {
-  font-size: calc(var(--font-size) * 0.875);
-  line-height: 1.2;
-}
 
 .overline {
   font-weight: 600;
